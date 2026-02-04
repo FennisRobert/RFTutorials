@@ -17,6 +17,15 @@ Please install the following to run these notebooks:
 ```bash
 pip install emerge heavi jupyter ipykernel
 ```
+It is also adviced to install these modules to help with 3D visualization!
+```bash
+pip install trame trame-vuetify trame-vtk
+```
+
+# Notes on running EMerge
+You might notice that EMerge runs quite slowly or even halts when first running scripts. This is normal! EMerge uses a lot of compiled code to accellerate computations but those scripts need to be compiled locally. This takes a while and once its done, it will used saved cached functions from there on out. 
+
+These functions are only compiled when needed so you may notice that EMerge freezed randomly during the first times you run new features. This should only happen the first time you run certain scripts!
 
 # How to contribute?
 The goal of this repository is for people to write their own tutorials explaining concepts in an interactive manner. 
